@@ -6,9 +6,11 @@
 
 **Listen, read, and speak across languages in VRChat.**
 
+> **v1.5.1 Beta** · Unofficial test build, not a stable release.
+
 A standalone Windows companion for subtitle translation, translating text in screenshots, and speaking translated audio back into the game. Its desktop and SteamVR views can show translations while you keep playing.
 
-[Download v1.5.1](https://github.com/LinguaNeko/VRChat-Lingua/releases/tag/v1.5.1) · [Quick start](#quick-start) · [User guide](docs/USAGE.md) · [简体中文 / 日本語 / 한국어 / English (US)](docs/LANGUAGES.md)
+[Download v1.5.1 Beta](https://github.com/LinguaNeko/VRChat-Lingua/releases/tag/v1.5.1) · [Quick start](#quick-start) · [User guide](docs/USAGE.md) · [简体中文 / 日本語 / 한국어 / English (US)](docs/LANGUAGES.md)
 
 ![VRChat Lingua Workspace with Incoming voice, Screenshots, device selection and translation history](docs/images/workbench.png)
 
@@ -28,12 +30,9 @@ Incoming voice captions and screenshot translation can run together. The interfa
 
 ## Download
 
-Requires **Windows 10 or 11 (64-bit)** and **.NET Framework 4.8**. Choose one EXE under [v1.5.1 → Assets](https://github.com/LinguaNeko/VRChat-Lingua/releases/tag/v1.5.1):
+Requires **Windows 10 or 11 (64-bit)** and **.NET Framework 4.8**. In [v1.5.1 Beta → Assets](https://github.com/LinguaNeko/VRChat-Lingua/releases/tag/v1.5.1), choose the **Windows x64 portable EXE** and run it directly. No application installation, separate DLL, or voice pack is needed.
 
-- **Installer:** `VRChatLingua-Neko-Setup-v1.5.1-x64.exe`. Installs for the current Windows user.
-- **Portable:** `VRChatLingua-Neko-v1.5.1.exe`. Run it directly; no separate DLL or voice pack is needed.
-
-SteamVR is optional for PC VR. A paired [VB-CABLE](https://vb-audio.com/Cable/) device is needed only when routing outgoing audio into VRChat. Neither is included in the installer. Local voice previews work without VB-CABLE.
+SteamVR is optional for PC VR. A paired [VB-CABLE](https://vb-audio.com/Cable/) device is needed only when routing outgoing audio into VRChat. SteamVR and the virtual cable are downloaded separately. Local voice previews work without VB-CABLE.
 
 ## Quick start
 
@@ -57,6 +56,6 @@ In **Outgoing voice**, select your physical microphone, the recipient language, 
 - Only the chosen image region is sent to the configured vision service. Speech and text services may receive selected audio segments or transcripts and may charge for requests. Built-in speech synthesis and local previews are offline.
 - This is not an official VRChat product. SteamVR capture requires a Windows PC and does not run directly on a standalone Quest.
 
-See the [full user guide](docs/USAGE.md), [v1.5.1 notes](docs/RELEASE-v1.5.1.md), and [third-party components](docs/THIRD-PARTY.md). When reporting a problem, include the version, feature, and exact error; **never share your API key**.
+See the [full user guide](docs/USAGE.md), [v1.5.1 Beta notes](docs/RELEASE-v1.5.1.md), and [third-party components](docs/THIRD-PARTY.md). When reporting a problem, include the version, feature, and exact error; **never share your API key**.
 
 This repository distributes documentation and Windows binaries, not application source code.

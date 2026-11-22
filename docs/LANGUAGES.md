@@ -1,6 +1,8 @@
 # Four-language guide · 四语对照 · 4言語ガイド · 4개 언어 안내
 
-[English project home](../README.md) · [Full English guide](USAGE.md) · [Download v1.5.1](https://github.com/LinguaNeko/VRChat-Lingua/releases/tag/v1.5.1)
+[English project home](../README.md) · [Full English guide](USAGE.md) · [Download v1.5.1 Beta](https://github.com/LinguaNeko/VRChat-Lingua/releases/tag/v1.5.1)
+
+> **非正式测试版 · 非公式ベータ版 · 비공식 베타 버전 · Unofficial Beta**
 
 ## Features · 功能 · 機能 · 기능
 
@@ -15,7 +17,7 @@
 
 | 简体中文 | 日本語 | 한국어 | English (US) |
 | --- | --- | --- | --- |
-| **1 · 下载**：从 Releases → Assets 选 Windows x64 安装版或便携版。 | **1 · ダウンロード**：Releases → Assets から Windows x64 のインストーラー版またはポータブル版を選択。 | **1 · 다운로드**: Releases → Assets에서 Windows x64 설치형 또는 포터블 버전을 선택합니다. | **1 · Download** the Windows x64 installer or portable EXE from Releases → Assets. |
+| **1 · 下载**：从 Releases → Assets 下载 Windows x64 便携版 EXE，直接运行。 | **1 · ダウンロード**：Releases → Assets から Windows x64 ポータブル版の EXE をダウンロードして、そのまま実行します。 | **1 · 다운로드**: Releases → Assets에서 Windows x64 포터블 EXE를 내려받아 바로 실행합니다. | **1 · Download** the Windows x64 portable EXE from Releases → Assets and run it directly. |
 | **2 · 配接口**：按需配置语音转写、文本翻译或视觉服务，用内置样例测试。 | **2 · API 設定**：音声認識、テキスト翻訳、画像認識のうち必要なサービスを設定し、サンプルでテスト。 | **2 · API 설정**: 필요한 음성 인식, 텍스트 번역, 이미지 인식 서비스를 설정하고 샘플로 테스트합니다. | **2 · Configure** transcription, text translation, or vision as needed. Test with a built-in sample. |
 | **3 · 听译或框选**：选播放设备和目标语言，开始语音翻译；桌面截图用 **Ctrl + Alt + T**。 | **3 · 字幕または範囲選択**：再生デバイスと翻訳先を選択して音声翻訳を開始。デスクトップの範囲選択は **Ctrl + Alt + T**。 | **3 · 자막 또는 영역 선택**: 재생 장치와 번역 언어를 선택해 음성 번역을 시작합니다. 데스크톱 영역 선택은 **Ctrl + Alt + T**입니다. | **3 · Listen or select**: Choose the playback device and target language for captions. Use **Ctrl + Alt + T** to select a desktop region. |
 | **试听与游戏输出**：本机试听无需 VB-CABLE；发到游戏时，在 VRChat 麦克风里选 **CABLE Output**。 | **試聴とゲーム出力**：ローカル試聴に VB-CABLE は不要。ゲームに送る場合は VRChat のマイクに **CABLE Output** を指定。 | **미리 듣기와 게임 출력**: 로컬 미리 듣기에는 VB-CABLE이 필요 없습니다. 게임에 보내려면 VRChat 마이크로 **CABLE Output**을 선택합니다. | **Preview and route**: Local preview does not need VB-CABLE. To send audio into the game, choose **CABLE Output** as the VRChat mic. |

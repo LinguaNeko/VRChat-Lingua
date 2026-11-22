@@ -1,6 +1,8 @@
 # VRChat Lingua user guide
 
-[Project home](../README.md) · [Four-language comparison](LANGUAGES.md) · [Download v1.5.1](https://github.com/LinguaNeko/VRChat-Lingua/releases/tag/v1.5.1)
+[Project home](../README.md) · [Four-language comparison](LANGUAGES.md) · [Download v1.5.1 Beta](https://github.com/LinguaNeko/VRChat-Lingua/releases/tag/v1.5.1)
+
+> **Unofficial Beta.** Download the portable EXE from the release assets and run it directly; there is no application installation step.
 
 ## Configure the services you need
 

@@ -1,4 +1,6 @@
-# VRChat Lingua v1.5.1
+# VRChat Lingua v1.5.1 Beta
+
+> **Unofficial test build. This is not a stable release.**
 
 A standalone Windows companion for VRChat with translated captions, screenshot translation, a SteamVR overlay, and outgoing translated speech.
 
@@ -7,19 +9,14 @@ A standalone Windows companion for VRChat with translated captions, screenshot t
 - Fixed an error that prevented the voice license dialog from opening on the first preview of multilingual built-in voices.
 - The outgoing language picker now shows only languages with a usable female narrator. Unusable Windows voices are hidden without uninstalling system voice packs.
 - Both offline speech model packs are embedded in the executable. All **159 built-in female presets across 32 languages** were individually tested for audible synthesis.
+- The Beta-labeled portable build shows the unofficial release status in the title bar and Preferences.
 
-## Downloads
+## Portable download
 
-- `VRChatLingua-Neko-Setup-v1.5.1-x64.exe` — installer for the current Windows user.
-- `VRChatLingua-Neko-v1.5.1.exe` — single-file portable build.
+In [v1.5.1 Beta → Assets](https://github.com/LinguaNeko/VRChat-Lingua/releases/tag/v1.5.1), choose the **Windows x64 portable EXE** and run it directly. No application installation, separate DLL, or voice pack is needed.
 
-Requires Windows 10/11 x64 and .NET Framework 4.8. Close older versions before opening this one. Local voice previews do not require VB-CABLE. To route the translated voice to VRChat, configure the paired virtual cable separately.
+The release page lists the available portable builds and their SHA-256 checksums. The original `VRChatLingua-Neko-v1.5.1.exe` was built before the in-app Beta label.
 
-English documentation and a Simplified Chinese, Japanese, Korean, and US English comparison guide are available on the repository homepage.
+Requires Windows 10/11 x64 and .NET Framework 4.8. Close the running app before replacing its EXE. Local voice previews do not need VB-CABLE. To route translated speech into VRChat, configure the paired virtual cable separately.
 
-## SHA-256
-
-```text
-74f1528164f2936094b909872c3ad62957368c1cbb348132efd81afd1dc841ec  VRChatLingua-Neko-Setup-v1.5.1-x64.exe
-72211cca5f8d581bf6cd19fdb63f84bac55d08d0a9c0e35c8b18dee7a6bd7537  VRChatLingua-Neko-v1.5.1.exe
-```
+See the [English user guide](USAGE.md) and [four-language guide](LANGUAGES.md) in English (US), Simplified Chinese, Japanese, and Korean.
